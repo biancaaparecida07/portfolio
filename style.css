@@ -4,11 +4,18 @@
 }
 
 body {
+    height: 100vh;/*Definição de que o body terá 100% da altura do dispositivo (viewport height), definido no meta*/
+    box-sizing: border-box; /*nenhum elemento filho do body vai estar fora dele. */
     background-color: #000000;
     color: #F6F6F6;
 }
 
 .titutlo_destaque{
     color: #22D4FD;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center; /*alinha os elementos ao centro em altura, de acordo a altura do maior elemento dentro do container. */
 }
  
