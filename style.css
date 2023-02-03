@@ -15,7 +15,9 @@ body {
 }
 
 .apresentacao{
+    margin: 10%;
     display: flex;
     align-items: center; /*alinha os elementos ao centro em altura, de acordo a altura do maior elemento dentro do container. */
+    justify-content: space-between;
 }
  
