@@ -20,4 +20,16 @@ body {
     align-items: center; /*alinha os elementos ao centro em altura, de acordo a altura do maior elemento dentro do container. */
     justify-content: space-between;
 }
+
+.apresentacao__conteudo{
+    width: 615px; /*Dado do figma*/
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+}
  
