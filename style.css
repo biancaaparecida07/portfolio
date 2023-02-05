@@ -36,4 +36,9 @@ body {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.apresentacao__links{
+    display: flex; /*permitindo posicionar os botões*/
+    justify-content: space-between;
+}
  
