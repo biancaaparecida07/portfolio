@@ -54,6 +54,10 @@ body {
 }
 
 .apresentacao__links_link{
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     text-align: center;
     padding: 21.5px 0px; /*vertical horizontal*/
