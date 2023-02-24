@@ -41,6 +41,7 @@ body {
     display: flex;
     align-items: center; /*alinha os elementos ao centro em altura, de acordo a altura do maior elemento dentro do container. */
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo{
@@ -48,7 +49,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 0 5% 0 0;
+    /*padding: 0 5% 0 0;*/
 }
 
 .apresentacao__conteudo__titulo{
@@ -112,3 +113,17 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+@media(max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;      
+    }  
+    
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    
+    .apresentacao{
+            flex-direction: column-reverse; /*column traz para a coluna mas na ordem declarada no html, se colocar o reverse, ele inverte a ordem elementos */
+        }
+    }
