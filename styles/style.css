@@ -21,7 +21,7 @@ body {
     color: var(--corsecundaria);
 }
 .cabecalho{
-    padding: 2% 0 0 15%; /*superior, direito, inferior, esquerdo*/
+    padding: 2% 0% 0% 15%; /*superior, direito, inferior, esquerdo*/
 }
 
 .cabecalho__menu{
@@ -41,14 +41,15 @@ body {
     display: flex;
     align-items: center; /*alinha os elementos ao centro em altura, de acordo a altura do maior elemento dentro do container. */
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo{
-    width: 615px; /*Dado do figma*/
+    width: 50%; /*Dado do figma*/
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 0 5% 0 0;
+    /*padding: 0 5% 0 0;*/
 }
 
 .apresentacao__conteudo__titulo{
@@ -76,14 +77,14 @@ body {
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    size: 24px;
+    font-size: 1.5rem;
 }
 
-.apresentacao__links_link{
+.apresentacao__links_navegacao{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     padding: 21.5px 0px; /*vertical horizontal*/
     border-radius: 8px;
@@ -99,6 +100,10 @@ body {
     background-color: var(--cor-hover);
 }
 
+
+.apresentacao__imagem{
+    width: 50%;
+}
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
@@ -108,3 +113,22 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+@media(max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;      
+    }  
+    
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    
+    .apresentacao{
+            flex-direction: column-reverse; /*column traz para a coluna mas na ordem declarada no html, se colocar o reverse, ele inverte a ordem elementos */
+            padding: 5%;
+        }
+
+        .apresentacao__conteudo{
+            width: auto;
+        }
+    }
