@@ -21,7 +21,7 @@ body {
     color: var(--corsecundaria);
 }
 .cabecalho{
-    padding: 2% 0 0 15%; /*superior, direito, inferior, esquerdo*/
+    padding: 2% 0% 0% 15%; /*superior, direito, inferior, esquerdo*/
 }
 
 .cabecalho__menu{
@@ -77,7 +77,7 @@ body {
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links_navegacao{
@@ -125,5 +125,10 @@ body {
     
     .apresentacao{
             flex-direction: column-reverse; /*column traz para a coluna mas na ordem declarada no html, se colocar o reverse, ele inverte a ordem elementos */
+            padding: 5%;
+        }
+
+        .apresentacao__conteudo{
+            width: auto;
         }
     }
