@@ -44,7 +44,7 @@ body {
 }
 
 .apresentacao__conteudo{
-    width: 615px; /*Dado do figma*/
+    width: 50%; /*Dado do figma*/
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -79,11 +79,11 @@ body {
     size: 24px;
 }
 
-.apresentacao__links_link{
+.apresentacao__links_navegacao{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     padding: 21.5px 0px; /*vertical horizontal*/
     border-radius: 8px;
@@ -99,6 +99,10 @@ body {
     background-color: var(--cor-hover);
 }
 
+
+.apresentacao__imagem{
+    width: 50%;
+}
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
