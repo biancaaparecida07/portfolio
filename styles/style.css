@@ -114,7 +114,7 @@ body {
     font-weight: 400;
 }
 
-@media(max-width: 1200px) {
+@media(min-width: 600px) and (max-width: 1200px) {
     .cabecalho{
         padding: 10%;      
     }  
@@ -128,7 +128,30 @@ body {
             padding: 5%;
         }
 
+    .apresentacao__conteudo{
+        width: auto;
+        }
+    }
+
+    @media (max-width: 600px) {
+
+        .cabecalho__menu{
+            gap: 60px;
+        }
+        .cabecalho__menu__link{
+            font-size: 1.0rem;
+        }
+
+        .apresentacao{
+            flex-direction: column-reverse;
+            padding: 5%;
+        }
+
         .apresentacao__conteudo{
             width: auto;
         }
+        .rodape{
+            font-size: 0.9rem;
+        }
     }
+
