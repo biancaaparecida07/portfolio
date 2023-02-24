@@ -36,6 +36,12 @@ body {
     text-decoration: none;
 
 }
+
+.cabecalho__menu__link:hover{
+    color: var(--corsecundaria);
+    font-size: 1.8rem;
+    transition-delay: 1ms;
+}
 .apresentacao{
     padding: 5% 15%;
     display: flex;
@@ -96,8 +102,11 @@ body {
     border: 2px solid var(--cor-terciaria);
 }
 
-.apresentacao__links_link:hover{
+.apresentacao__links_navegacao:hover{
     background-color: var(--cor-hover);
+    padding: 25px 0px;
+    width: 65%;
+    transition-delay: 0.5s;
 }
 
 
@@ -135,7 +144,12 @@ body {
 
     @media (max-width: 600px) {
 
+        .cabecalho{
+            padding: 2% 10% 0% 10%; /*superior, direito, inferior, esquerdo*/
+        }
+
         .cabecalho__menu{
+            justify-content: center;
             gap: 60px;
         }
         .cabecalho__menu__link{
