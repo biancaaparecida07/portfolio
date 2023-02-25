@@ -142,7 +142,7 @@ body {
         }
     }
 
-    @media (max-width: 600px) {
+    @media (min-width: 400px) and (max-width: 600px) {
 
         .cabecalho{
             padding: 2% 10% 0% 10%; /*superior, direito, inferior, esquerdo*/
@@ -152,6 +152,7 @@ body {
             justify-content: center;
             gap: 60px;
         }
+
         .cabecalho__menu__link{
             font-size: 1.0rem;
         }
@@ -166,6 +167,49 @@ body {
         }
         .rodape{
             font-size: 0.9rem;
+        }
+    }
+
+    @media (max-width: 399px){
+        .cabecalho{
+            padding: 2% 10% 0% 10%; /*superior, direito, inferior, esquerdo*/
+        }
+
+        .cabecalho__menu{
+            justify-content: center;
+            gap: 40px;
+        }
+        .cabecalho__menu__link{
+            font-size: 1.0rem;
+        }
+
+        .apresentacao{
+            flex-direction: column-reverse;
+            padding: 5%;
+        }
+
+        .apresentacao__conteudo{
+            width: auto;
+        }
+
+        .apresentacao__conteudo__titulo{
+            font-size: 1.2rem;
+        }
+
+        .apresentacao__conteudo__texto{
+            font-size: 1.0rem;
+        }
+
+        .apresentacao__links__subtitulo{
+            font-size: 1.0rem;
+        }
+        
+        .apresentacao__links_navegacao{
+            font-size: 1.1rem;
+
+        }
+        .rodape{
+            font-size: 0.8rem;
         }
     }
 
