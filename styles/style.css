@@ -131,6 +131,10 @@ body {
     .cabecalho__menu{
         justify-content: center;
     }
+
+    .cabecalho__menu__link{
+        font-size: 1.3rem;
+    }
     
     .apresentacao{
             flex-direction: column-reverse; /*column traz para a coluna mas na ordem declarada no html, se colocar o reverse, ele inverte a ordem elementos */
@@ -154,7 +158,7 @@ body {
         }
 
         .cabecalho__menu__link{
-            font-size: 1.0rem;
+            font-size: 1.2rem;
         }
 
         .apresentacao{
@@ -179,8 +183,10 @@ body {
             justify-content: center;
             gap: 40px;
         }
+
         .cabecalho__menu__link{
-            font-size: 1.0rem;
+            font-size: 1.2rem;
+            text-align: center;
         }
 
         .apresentacao{
