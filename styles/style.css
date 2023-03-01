@@ -40,7 +40,7 @@ body {
 .cabecalho__menu__link:hover{
     color: var(--corsecundaria);
     font-size: 1.8rem;
-    transition-delay: 1ms;
+    transition: all 0.3s;
 }
 .apresentacao{
     padding: 5% 15%;
@@ -106,7 +106,7 @@ body {
     background-color: var(--cor-hover);
     padding: 25px 0px;
     width: 65%;
-    transition-delay: 0.5s;
+    transition: all 0.3s;
 }
 
 
